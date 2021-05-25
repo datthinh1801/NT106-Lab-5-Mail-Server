@@ -58,6 +58,7 @@ namespace ANTN2019_Lab5_Nhom1_19520982
                     catch (Exception ex)
                     {
                         MessageBox.Show(ex.ToString());
+                        CleanUp();
                     }
                 }
             }
