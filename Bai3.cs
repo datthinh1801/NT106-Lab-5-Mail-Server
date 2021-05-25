@@ -25,6 +25,7 @@ namespace ANTN2019_Lab5_Nhom1_19520982
             rtbSubject.Text = "";
             rtbPassword.Text = "";
             rtbBody.Text = "";
+            file_attach.Text = "";
         }
 
         private void btnSend_Click(object sender, EventArgs e)
@@ -40,16 +41,8 @@ namespace ANTN2019_Lab5_Nhom1_19520982
 
         private void SendGmail(string subject, string body, string mailto, string mailfrom, string password)
         {
-            /*
-            var gmailClient = new SmtpClient
-            {
-                Host = "smtp.gmail.com",
-                Port = 587,
-                EnableSsl = true,
-                UseDefaultCredentials = false,
-                Credentials = new NetworkCredential(mailfrom, password)
-            };
-            */
+
+
 
             using (SmtpClient smtpClient = new SmtpClient("smtp.gmail.com"))
             {
@@ -67,6 +60,12 @@ namespace ANTN2019_Lab5_Nhom1_19520982
                     message.To.Add(mailto);
                     message.Body = body;
 
+                    if (file_attach.Text != "")
+                    {
+                        Attachment attachment = new Attachment(file_attach.Text);
+                        message.Attachments.Add(attachment);
+                    }
+
                     try
                     {
                         smtpClient.Send(message);
@@ -82,6 +81,16 @@ namespace ANTN2019_Lab5_Nhom1_19520982
                 }
             }
 
+        }
+
+        private void attach_btn_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog ofd = new OpenFileDialog();
+
+            if(ofd.ShowDialog()== DialogResult.OK)
+            {
+                file_attach.Text = ofd.FileName;
+            }
         }
     }
 }
