@@ -40,6 +40,7 @@ namespace ANTN2019_Lab5_Nhom1_19520982
 
         private void SendGmail(string subject, string body, string mailto, string mailfrom, string password)
         {
+            /*
             var gmailClient = new SmtpClient
             {
                 Host = "smtp.gmail.com",
@@ -48,26 +49,36 @@ namespace ANTN2019_Lab5_Nhom1_19520982
                 UseDefaultCredentials = false,
                 Credentials = new NetworkCredential(mailfrom, password)
             };
+            */
 
-            using (MailMessage message = new MailMessage())
+            using (SmtpClient smtpClient = new SmtpClient("smtp.gmail.com"))
             {
-                MailAddress fromAddress = new MailAddress(mailfrom);
-                message.From = fromAddress;
-                message.Subject = subject;
-                message.IsBodyHtml = true;
-                message.To.Add(mailto);
+                smtpClient.Port = 587;
+                smtpClient.EnableSsl = true;
+                smtpClient.UseDefaultCredentials = false;
+                smtpClient.Credentials = new NetworkCredential(mailfrom, password);
 
-                try
+                using (MailMessage message = new MailMessage())
                 {
-                    gmailClient.Send(message);
-                    MessageBox.Show("Send successfully!");
-                    CleanUp();
+                    MailAddress fromAddress = new MailAddress(mailfrom);
+                    message.From = fromAddress;
+                    message.Subject = subject;
+                    message.IsBodyHtml = true;
+                    message.To.Add(mailto);
+                    message.Body = body;
 
-                }
-                catch (Exception e)
-                {
-                    MessageBox.Show(e.Message);
-                    CleanUp();
+                    try
+                    {
+                        smtpClient.Send(message);
+                        MessageBox.Show("Send successfully!");
+                        CleanUp();
+
+                    }
+                    catch (Exception e)
+                    {
+                        MessageBox.Show(e.Message);
+                        CleanUp();
+                    }
                 }
             }
 

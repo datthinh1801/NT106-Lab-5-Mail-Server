@@ -36,10 +36,10 @@ namespace ANTN2019_Lab5_Nhom1_19520982
             this.lbBody = new System.Windows.Forms.Label();
             this.rtbFrom = new System.Windows.Forms.RichTextBox();
             this.rtbTo = new System.Windows.Forms.RichTextBox();
-            this.rtbPassword = new System.Windows.Forms.RichTextBox();
             this.rtbSubject = new System.Windows.Forms.RichTextBox();
             this.rtbBody = new System.Windows.Forms.RichTextBox();
             this.btnSend = new System.Windows.Forms.Button();
+            this.rtbPassword = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lbFrom
@@ -103,14 +103,6 @@ namespace ANTN2019_Lab5_Nhom1_19520982
             this.rtbTo.TabIndex = 6;
             this.rtbTo.Text = "";
             // 
-            // rtbPassword
-            // 
-            this.rtbPassword.Location = new System.Drawing.Point(584, 21);
-            this.rtbPassword.Name = "rtbPassword";
-            this.rtbPassword.Size = new System.Drawing.Size(176, 30);
-            this.rtbPassword.TabIndex = 7;
-            this.rtbPassword.Text = "";
-            // 
             // rtbSubject
             // 
             this.rtbSubject.Location = new System.Drawing.Point(127, 110);
@@ -137,15 +129,23 @@ namespace ANTN2019_Lab5_Nhom1_19520982
             this.btnSend.UseVisualStyleBackColor = true;
             this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
             // 
+            // rtbPassword
+            // 
+            this.rtbPassword.Location = new System.Drawing.Point(584, 25);
+            this.rtbPassword.Name = "rtbPassword";
+            this.rtbPassword.PasswordChar = '*';
+            this.rtbPassword.Size = new System.Drawing.Size(176, 23);
+            this.rtbPassword.TabIndex = 11;
+            // 
             // Bai3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 549);
+            this.Controls.Add(this.rtbPassword);
             this.Controls.Add(this.btnSend);
             this.Controls.Add(this.rtbBody);
             this.Controls.Add(this.rtbSubject);
-            this.Controls.Add(this.rtbPassword);
             this.Controls.Add(this.rtbTo);
             this.Controls.Add(this.rtbFrom);
             this.Controls.Add(this.lbBody);
@@ -169,9 +169,9 @@ namespace ANTN2019_Lab5_Nhom1_19520982
         private System.Windows.Forms.Label lbBody;
         private System.Windows.Forms.RichTextBox rtbFrom;
         private System.Windows.Forms.RichTextBox rtbTo;
-        private System.Windows.Forms.RichTextBox rtbPassword;
         private System.Windows.Forms.RichTextBox rtbSubject;
         private System.Windows.Forms.RichTextBox rtbBody;
         private System.Windows.Forms.Button btnSend;
+        private System.Windows.Forms.TextBox rtbPassword;
     }
 }
