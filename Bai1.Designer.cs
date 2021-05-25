@@ -155,7 +155,7 @@ namespace ANTN2019_Lab5_Nhom1_19520982
             this.Controls.Add(this.btnSend);
             this.Name = "Bai1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "MainForm";
+            this.Text = "Bai1";
             this.ResumeLayout(false);
             this.PerformLayout();
 
