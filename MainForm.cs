@@ -10,12 +10,26 @@ using System.Windows.Forms;
 
 namespace ANTN2019_Lab5_Nhom1_19520982
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
         }
 
+        private void btnBai1_Click(object sender, EventArgs e)
+        {
+            new Bai1().Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new Bai2().Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new Bai3().Show();
+        }
     }
 }

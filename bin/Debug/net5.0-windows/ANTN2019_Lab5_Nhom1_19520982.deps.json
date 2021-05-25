@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ANTN2019_Lab5_Nhom1_19520982/1.0.0": {
+        "runtime": {
+          "ANTN2019_Lab5_Nhom1_19520982.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ANTN2019_Lab5_Nhom1_19520982/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
