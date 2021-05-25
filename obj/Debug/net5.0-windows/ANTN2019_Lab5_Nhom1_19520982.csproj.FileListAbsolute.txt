@@ -44,3 +44,4 @@ E:\LEARNING\Basic network programming\Lab05\-Network-Programming-Working-with-Ma
 E:\LEARNING\Basic network programming\Lab05\-Network-Programming-Working-with-Mail-Server\bin\Debug\net5.0-windows\MimeKit.dll
 E:\LEARNING\Basic network programming\Lab05\-Network-Programming-Working-with-Mail-Server\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
 E:\LEARNING\Basic network programming\Lab05\-Network-Programming-Working-with-Mail-Server\obj\Debug\net5.0-windows\ANTN2019_Lab5_Nhom1_19520982.csproj.CopyComplete
+E:\LEARNING\Basic network programming\Lab05\-Network-Programming-Working-with-Mail-Server\obj\Debug\net5.0-windows\ANTN2019_Lab5_Nhom1_19520982.Email_Content.resources
