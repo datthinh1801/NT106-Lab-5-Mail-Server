@@ -1,0 +1,10 @@
+ANTN2019_Lab5_Nhom1_19520982.csproj filter=lfs diff=lfs merge=lfs -text
+ANTN2019_Lab5_Nhom1_19520982.csproj.user filter=lfs diff=lfs merge=lfs -text
+Form1.Designer.cs filter=lfs diff=lfs merge=lfs -text
+Form1.cs filter=lfs diff=lfs merge=lfs -text
+Form1.resx filter=lfs diff=lfs merge=lfs -text
+obj filter=lfs diff=lfs merge=lfs -text
+ANTN2019_Lab5_Nhom1_19520982 filter=lfs diff=lfs merge=lfs -text
+Program.cs filter=lfs diff=lfs merge=lfs -text
+bin filter=lfs diff=lfs merge=lfs -text
+ANTN2019_Lab5_Nhom1_19520982.sln filter=lfs diff=lfs merge=lfs -text
