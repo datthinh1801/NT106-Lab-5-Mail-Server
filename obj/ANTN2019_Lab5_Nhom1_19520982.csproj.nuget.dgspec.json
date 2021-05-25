@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\UIT\\Network Programming\\Labs\\ANTN2019_Lab5_Nhom1_19520982\\ANTN2019_Lab5_Nhom1_19520982.csproj": {}
+    "E:\\LEARNING\\Basic network programming\\Lab05\\-Network-Programming-Working-with-Mail-Server\\ANTN2019_Lab5_Nhom1_19520982.csproj": {}
   },
   "projects": {
-    "E:\\UIT\\Network Programming\\Labs\\ANTN2019_Lab5_Nhom1_19520982\\ANTN2019_Lab5_Nhom1_19520982.csproj": {
+    "E:\\LEARNING\\Basic network programming\\Lab05\\-Network-Programming-Working-with-Mail-Server\\ANTN2019_Lab5_Nhom1_19520982.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\UIT\\Network Programming\\Labs\\ANTN2019_Lab5_Nhom1_19520982\\ANTN2019_Lab5_Nhom1_19520982.csproj",
+        "projectUniqueName": "E:\\LEARNING\\Basic network programming\\Lab05\\-Network-Programming-Working-with-Mail-Server\\ANTN2019_Lab5_Nhom1_19520982.csproj",
         "projectName": "ANTN2019_Lab5_Nhom1_19520982",
-        "projectPath": "E:\\UIT\\Network Programming\\Labs\\ANTN2019_Lab5_Nhom1_19520982\\ANTN2019_Lab5_Nhom1_19520982.csproj",
-        "packagesPath": "C:\\Users\\datth\\.nuget\\packages\\",
-        "outputPath": "E:\\UIT\\Network Programming\\Labs\\ANTN2019_Lab5_Nhom1_19520982\\obj\\",
+        "projectPath": "E:\\LEARNING\\Basic network programming\\Lab05\\-Network-Programming-Working-with-Mail-Server\\ANTN2019_Lab5_Nhom1_19520982.csproj",
+        "packagesPath": "C:\\Users\\IxZ\\.nuget\\packages\\",
+        "outputPath": "E:\\LEARNING\\Basic network programming\\Lab05\\-Network-Programming-Working-with-Mail-Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\datth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\IxZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,12 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

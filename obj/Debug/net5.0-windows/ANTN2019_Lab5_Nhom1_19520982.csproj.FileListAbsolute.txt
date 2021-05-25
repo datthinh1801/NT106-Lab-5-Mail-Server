@@ -19,3 +19,28 @@ E:\UIT\Network Programming\Labs\ANTN2019_Lab5_Nhom1_19520982\obj\Debug\net5.0-wi
 E:\UIT\Network Programming\Labs\ANTN2019_Lab5_Nhom1_19520982\obj\Debug\net5.0-windows\ref\ANTN2019_Lab5_Nhom1_19520982.dll
 E:\UIT\Network Programming\Labs\ANTN2019_Lab5_Nhom1_19520982\obj\Debug\net5.0-windows\ANTN2019_Lab5_Nhom1_19520982.pdb
 E:\UIT\Network Programming\Labs\ANTN2019_Lab5_Nhom1_19520982\obj\Debug\net5.0-windows\ANTN2019_Lab5_Nhom1_19520982.genruntimeconfig.cache
+E:\LEARNING\Basic network programming\Lab05\-Network-Programming-Working-with-Mail-Server\bin\Debug\net5.0-windows\ANTN2019_Lab5_Nhom1_19520982.exe
+E:\LEARNING\Basic network programming\Lab05\-Network-Programming-Working-with-Mail-Server\bin\Debug\net5.0-windows\ANTN2019_Lab5_Nhom1_19520982.deps.json
+E:\LEARNING\Basic network programming\Lab05\-Network-Programming-Working-with-Mail-Server\bin\Debug\net5.0-windows\ANTN2019_Lab5_Nhom1_19520982.runtimeconfig.json
+E:\LEARNING\Basic network programming\Lab05\-Network-Programming-Working-with-Mail-Server\bin\Debug\net5.0-windows\ANTN2019_Lab5_Nhom1_19520982.runtimeconfig.dev.json
+E:\LEARNING\Basic network programming\Lab05\-Network-Programming-Working-with-Mail-Server\bin\Debug\net5.0-windows\ANTN2019_Lab5_Nhom1_19520982.dll
+E:\LEARNING\Basic network programming\Lab05\-Network-Programming-Working-with-Mail-Server\bin\Debug\net5.0-windows\ref\ANTN2019_Lab5_Nhom1_19520982.dll
+E:\LEARNING\Basic network programming\Lab05\-Network-Programming-Working-with-Mail-Server\bin\Debug\net5.0-windows\ANTN2019_Lab5_Nhom1_19520982.pdb
+E:\LEARNING\Basic network programming\Lab05\-Network-Programming-Working-with-Mail-Server\obj\Debug\net5.0-windows\ANTN2019_Lab5_Nhom1_19520982.csprojAssemblyReference.cache
+E:\LEARNING\Basic network programming\Lab05\-Network-Programming-Working-with-Mail-Server\obj\Debug\net5.0-windows\ANTN2019_Lab5_Nhom1_19520982.Bai1.resources
+E:\LEARNING\Basic network programming\Lab05\-Network-Programming-Working-with-Mail-Server\obj\Debug\net5.0-windows\ANTN2019_Lab5_Nhom1_19520982.Bai2.resources
+E:\LEARNING\Basic network programming\Lab05\-Network-Programming-Working-with-Mail-Server\obj\Debug\net5.0-windows\ANTN2019_Lab5_Nhom1_19520982.Bai3.resources
+E:\LEARNING\Basic network programming\Lab05\-Network-Programming-Working-with-Mail-Server\obj\Debug\net5.0-windows\ANTN2019_Lab5_Nhom1_19520982.MainForm.resources
+E:\LEARNING\Basic network programming\Lab05\-Network-Programming-Working-with-Mail-Server\obj\Debug\net5.0-windows\ANTN2019_Lab5_Nhom1_19520982.csproj.GenerateResource.cache
+E:\LEARNING\Basic network programming\Lab05\-Network-Programming-Working-with-Mail-Server\obj\Debug\net5.0-windows\ANTN2019_Lab5_Nhom1_19520982.GeneratedMSBuildEditorConfig.editorconfig
+E:\LEARNING\Basic network programming\Lab05\-Network-Programming-Working-with-Mail-Server\obj\Debug\net5.0-windows\ANTN2019_Lab5_Nhom1_19520982.AssemblyInfoInputs.cache
+E:\LEARNING\Basic network programming\Lab05\-Network-Programming-Working-with-Mail-Server\obj\Debug\net5.0-windows\ANTN2019_Lab5_Nhom1_19520982.AssemblyInfo.cs
+E:\LEARNING\Basic network programming\Lab05\-Network-Programming-Working-with-Mail-Server\obj\Debug\net5.0-windows\ANTN2019_Lab5_Nhom1_19520982.csproj.CoreCompileInputs.cache
+E:\LEARNING\Basic network programming\Lab05\-Network-Programming-Working-with-Mail-Server\obj\Debug\net5.0-windows\ANTN2019_Lab5_Nhom1_19520982.dll
+E:\LEARNING\Basic network programming\Lab05\-Network-Programming-Working-with-Mail-Server\obj\Debug\net5.0-windows\ref\ANTN2019_Lab5_Nhom1_19520982.dll
+E:\LEARNING\Basic network programming\Lab05\-Network-Programming-Working-with-Mail-Server\obj\Debug\net5.0-windows\ANTN2019_Lab5_Nhom1_19520982.pdb
+E:\LEARNING\Basic network programming\Lab05\-Network-Programming-Working-with-Mail-Server\obj\Debug\net5.0-windows\ANTN2019_Lab5_Nhom1_19520982.genruntimeconfig.cache
+E:\LEARNING\Basic network programming\Lab05\-Network-Programming-Working-with-Mail-Server\bin\Debug\net5.0-windows\MailKit.dll
+E:\LEARNING\Basic network programming\Lab05\-Network-Programming-Working-with-Mail-Server\bin\Debug\net5.0-windows\MimeKit.dll
+E:\LEARNING\Basic network programming\Lab05\-Network-Programming-Working-with-Mail-Server\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
+E:\LEARNING\Basic network programming\Lab05\-Network-Programming-Working-with-Mail-Server\obj\Debug\net5.0-windows\ANTN2019_Lab5_Nhom1_19520982.csproj.CopyComplete

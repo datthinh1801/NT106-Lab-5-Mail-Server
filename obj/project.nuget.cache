@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "3xZOSHNhyuznqcHhqSoE/eF6YcUUE22nbaUq5dunkcrQmeqJIXCq/HkDEVWSVXDZQz32QIkgycJnF2APed1lYg==",
+  "dgSpecHash": "wBHAxhvL/mWQRJiaWVS1JaLbh7IcAJVnj6rgYWseXo7thVxxCBh1LtHrpYyGY4kDkkbIxBYJr/936XoXsD0uqA==",
   "success": true,
-  "projectFilePath": "E:\\UIT\\Network Programming\\Labs\\ANTN2019_Lab5_Nhom1_19520982\\ANTN2019_Lab5_Nhom1_19520982.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "E:\\LEARNING\\Basic network programming\\Lab05\\-Network-Programming-Working-with-Mail-Server\\ANTN2019_Lab5_Nhom1_19520982.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\IxZ\\.nuget\\packages\\mailkit\\2.12.0\\mailkit.2.12.0.nupkg.sha512",
+    "C:\\Users\\IxZ\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\IxZ\\.nuget\\packages\\mimekit\\2.12.0\\mimekit.2.12.0.nupkg.sha512",
+    "C:\\Users\\IxZ\\.nuget\\packages\\portable.bouncycastle\\1.8.10\\portable.bouncycastle.1.8.10.nupkg.sha512",
+    "C:\\Users\\IxZ\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\IxZ\\.nuget\\packages\\system.reflection.typeextensions\\4.4.0\\system.reflection.typeextensions.4.4.0.nupkg.sha512",
+    "C:\\Users\\IxZ\\.nuget\\packages\\system.security.cryptography.cng\\4.7.0\\system.security.cryptography.cng.4.7.0.nupkg.sha512",
+    "C:\\Users\\IxZ\\.nuget\\packages\\system.security.cryptography.pkcs\\4.7.0\\system.security.cryptography.pkcs.4.7.0.nupkg.sha512",
+    "C:\\Users\\IxZ\\.nuget\\packages\\system.text.encoding.codepages\\4.4.0\\system.text.encoding.codepages.4.4.0.nupkg.sha512"
+  ],
   "logs": []
 }
