@@ -19,6 +19,15 @@ namespace ANTN2019_Lab5_Nhom1_19520982
             InitializeComponent();
         }
 
+        private void CleanUp()
+        {
+            rtbFrom.Text = "";
+            rtbTo.Text = "";
+            rtbSubject.Text = "";
+            rtbPassword.Text = "";
+            rtbBody.Text = "";
+        }
+
         private void btnSend_Click(object sender, EventArgs e)
         {
             using (SmtpClient smtpClient = new SmtpClient("127.0.0.1"))
@@ -43,6 +52,8 @@ namespace ANTN2019_Lab5_Nhom1_19520982
                     try
                     {
                         smtpClient.Send(message);
+                        MessageBox.Show("Send successfully!");
+                        CleanUp();
                     }
                     catch (Exception ex)
                     {
