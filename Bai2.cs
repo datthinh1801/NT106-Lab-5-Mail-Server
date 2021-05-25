@@ -74,12 +74,28 @@ namespace ANTN2019_Lab5_Nhom1_19520982
                 if (rectangle.Contains(e.Location))
                 {
                     var message = inbox.GetMessage(i);
-                    if(message.From==null||message.Subject==null||message.To==null||message.TextBody==null)
+                    string from = "",subject ="",to = "",textbody = "";
+                    if(message.From!=null)
                     {
-                        MessageBox.Show("Message Format can not show!");
-                        return;
+                        from = message.From.ToString();
                     }
-                    new Email_Content(message.From.ToString(), message.Subject.ToString(), message.To.ToString(), message.TextBody.ToString()).Show();
+
+                    if(message.Subject!=null)
+                    {
+                        subject = message.Subject.ToString();
+                    }
+
+                    if(message.To!=null)
+                    {
+                        to = message.To.ToString();
+                    }
+
+                    if(message.TextBody!=null)
+                    {
+                        textbody = message.TextBody.ToString();
+                    }
+
+                    new Email_Content(from,subject,to,textbody).Show();
                     return;
                 }
             }
