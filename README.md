@@ -2,7 +2,7 @@
 This repository belongs to our Basic Network Programming schoolwork.  
 
 # Report
-# ![Link Video](https://www.youtube.com/watch?v=tkb68sRI40o)
+# [Link Video](https://www.youtube.com/watch?v=tkb68sRI40o)
 ## Main Form
 ![image](https://user-images.githubusercontent.com/31529599/119470570-af4e5580-bd72-11eb-944d-012cc792f0e2.png)  
 > There is a typo error while naming this form. Instead of being named `MainForm`, this form was named `Bai 1` by mistake. Please forgive us 🙏  
